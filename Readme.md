@@ -1,6 +1,6 @@
 # Heart Disease Prediction Project
 
-This project focuses on predicting heart disease using machine learning techniques. The analysis is based on data obtained from Kaggle. [cite: 5]
+This project focuses on predicting heart disease using machine learning techniques. The analysis is based on data obtained from Kaggle.
 
 ## Data Preprocessing
 
@@ -20,7 +20,7 @@ A correlation matrix was generated to visualize the relationships between differ
 
 ### Ensemble Learning with XGBoost
 
-* The project initially explored using XGBoost, a gradient boosting framework, for ensemble learning. [cite: 15, 16, 17, 18, 19, 20]
+* The project initially explored using XGBoost, a gradient boosting framework, for ensemble learning. 
 * However, the XGBoost model's results were deemed unreliable. 
 
 ### Scikit-learn Random Forest
@@ -30,7 +30,7 @@ A correlation matrix was generated to visualize the relationships between differ
 
 ### K-Nearest Neighbors (KNN)
 
-* The K-Nearest Neighbors (KNN) algorithm was then employed for classification. [cite: 27, 28, 29, 30, 31, 32, 33]
+* The K-Nearest Neighbors (KNN) algorithm was then employed for classification. 
 * Different K values were tested, and the optimal K value was determined to be 61. 
 * The KNN model with the optimal K value yielded reasonable results. 
 * K-Fold cross-validation was performed, and the score was satisfactory. 
